@@ -178,8 +178,13 @@ def set_png_as_page_bg(png_file):
     }}
     [data-testid="baseButton-secondary"]{{
     background-color: gray;
-    border-color: grsy;
+    border-color: gray;
     color: white;
+    }}
+    [data-testid="stButton"] > button:hover {{
+    background-color: gray;
+    border-color: gray;
+    color: black;
     }}
     </style>
     """ % bin_str
